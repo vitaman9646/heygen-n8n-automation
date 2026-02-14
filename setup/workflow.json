@@ -1,0 +1,20 @@
+{
+  "name": "HeyGen Video Generator",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "5a0929e9-3c00-4be6-9366-9f93c594e6f5",
+      "name": "When clicking 'Test workflow'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "position": [6960, 2080],
+      "typeVersion": 1
+    }
+    // ... остальные узлы из вашего workflow
+  ],
+  "connections": {
+    "When clicking 'Test workflow'": {
+      "main": [[{ "node": "Config", "type": "main", "index": 0 }]]
+    }
+    // ... остальные соединения
+  }
+}
